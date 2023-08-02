@@ -1,0 +1,72 @@
+<!DoCTYPE html>
+<html>
+    <head>
+           <title>registration form</title>
+           <link rel="styleSheet" href="registration.css">
+    </head>
+    <body>
+          <h2>Registration Form</h2>
+          <form class="form">
+            <div>
+            <label for="First" > First Name<span style="color: red;">*</span></label>
+            <input type="text" id="First" placeholder="firstname"  required>
+            </div>
+        <br><br>
+
+            <label for="Last">2.Last Name <span style="color: red;">*</span></label>
+            <input type="text" id="Last" placeholder="lastname" required>
+        <br>
+            <br>
+           <label >3.Gender:<span style="color: red;">*</span></label>
+           <br>
+            
+            <input type="radio" name="male" text="male" value="male" >
+            <label for="male" >Male:</label>
+            <input type="radio" name="male" text="female" value="female" >
+            <label for="female" >Female:</label>
+             <br><br>
+            <label for="mail">4.Email:</label>
+            <input type="email" id="mail" required>
+            <br><br>
+            <label for="education">5.Education</label>
+            <input type="text" id="education">
+            <br><br>
+            <label for="num">6.MobileNo</label>
+            <input type="number" id="num" only 10 digit number> 
+            <br><br>
+            <label>7.Select city:</label>
+            <select>
+                <option></option>
+                <option>Bangalore</option>
+                <option>Bangkok</option>
+                <option>Bellary</option>
+            </select>
+            <br><br>
+            <label for="country">8.Country:</label>
+            
+            <select type="text" id="country" placeholder="Country/region">
+             <option></option>
+                <option>India</option>
+                <option>America</option>
+                <option>japan</option>
+                <option>china</option>
+             </select>
+             <br><br>
+             <label for="url">9. Personal Url:</label>
+             <input type="Url" id="url">
+             <br><br>
+
+             <strong>Skills</strong><br>
+             <input type="checkbox" id="box"  name="checkName">
+             <label for="box">Python</label>
+             <input type="checkbox" id="box" name="name">
+             <label for="box">java</label>
+             <br>
+
+             <div id="button">
+                <input id="button1" type="submit" id="buttonId" value="Register">
+                <input id="button2" type="reset" id="buttonId" value="Cancel">
+            </div>
+          </form>
+    </body>
+</html>
